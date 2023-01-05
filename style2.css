@@ -1,0 +1,111 @@
+.conteiner{
+    max-width: 1100px;
+    width: 100%;
+    height: 400px;
+    height: auto;
+    background-color: rgb(236, 188, 125);
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+    
+    
+    
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    font-size: 20px;
+    
+}
+.box1 img {
+
+    width: 100%;
+    height: 150px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(34, 9, 173);
+    font-size: 20px;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+}
+
+.box2 img {
+
+    width: 100%;
+    height: 150px;
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(172, 17, 42);
+    font-size: 20px;
+    
+}
+.box3 img {
+
+    width: 100%;
+    height: 150px;
+}
+/** ცალკე ბოქს არ შემიქმნია ზედა მივაბი კონტ 2 -ს  */
+.conteiner2{
+    
+    margin-top: 90px;
+    max-width: 1100px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(69, 167, 30);
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    
+    
+    
+    
+}
+
+.conteiner3{
+    top: 80px;
+    max-width: 1100px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(10, 134, 165);
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+    align-items: center;
+    text-align: center;
+    height: auto;
+    
+}
+/** 700 ze  Chamoyris elementebs da zmashi gazrdis  */
+@media (max-width:700px){
+    .conteiner3{
+        flex-direction: column;
+    }
+    .conteiner3 .box1, .conteiner3 .box2,  .conteiner3 .box3{
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+        
+    }
+    .conteiner3 .box1 img,.conteiner3 .box2 img,.conteiner3 .box3 img {
+
+        width: 100%;
+        height: 250px;
+    }
+}
